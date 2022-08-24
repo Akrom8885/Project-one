@@ -1,0 +1,17 @@
+$color-red:red;
+
+@mixin name {
+    width: 500px;
+    height: 500px;
+    background-color: $color-red;
+}
+
+.container{
+   @include name();
+
+    .container__main{
+        width: 100px;
+        height: 200px;
+        background-color: #fff;
+    }
+}

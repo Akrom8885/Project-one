@@ -1,0 +1,10 @@
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+.container .container__main {
+  width: 100px;
+  height: 200px;
+  background-color: #fff;
+}/*# sourceMappingURL=index.css.map */
